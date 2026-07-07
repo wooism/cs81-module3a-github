@@ -28,3 +28,14 @@ const calcArea = function (radius) {
 const area = calcArea(5);
 
 console.log(area);
+
+// Loops through an array of names and logs each one
+
+const printNames = function(names) {
+    for (let i = 0; i < names.length; i++) {
+        console.log(names[i]);
+    }
+};
+
+const names = ["Terry", "Mario", "Luigi"];
+printNames(names);
