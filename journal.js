@@ -18,3 +18,13 @@ const personTime = function(name,time) {
 };
 
 personTime("mario","morning")
+
+// Squares 5 and multiplies by pi
+
+const calcArea = function (radius) {
+    return 3.14 * radius ** 2;
+};
+
+const area = calcArea(5);
+
+console.log(area);
