@@ -10,3 +10,11 @@ const speak = function () {
 };
 
 speak();
+
+// Greet a user by name and time of day
+
+const personTime = function(name,time) {
+    console.log(`good ${time} ${name}`);
+};
+
+personTime("mario","morning")
